@@ -24,6 +24,7 @@ To use the RCE:
 
 2.  **Utilize Context**:
     -   The AI will now use the context provided by the RCE to perform development tasks. Refer to `system_prompt.md`, `guidelines/`, and `persistency/` for comprehensive project understanding.
+    -   Once you have pasted your PRD, simply say "Orchestrate" to begin the development process.
 
 ## Folder Structure
 
