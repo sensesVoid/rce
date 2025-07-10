@@ -1,128 +1,128 @@
-# Product Requirements Document (PRD)
+# Product Requirements Document (PRD) Boilerplate
 
 ## 1. Overview
 
-**Project Name:** Self-Replicating AI Agents
-**One-Liner:** A system of autonomous, intelligent AI agents designed to operate online, performing specific tasks and capable of self-replication to continually grow and evolve digital operations without human intervention.
+**Project Name:** AI Customer Support Widget
+**One-Liner:** An embeddable AI-powered widget that provides real-time customer support through voice calls, following strict call flows and product policies while leveraging RAG and vector databases for accurate, contextual responses.
 
 ## 2. Problem Statement
 
 **What problem is this project solving?**
-This project addresses the need for continuous, scalable, and autonomous online task execution without requiring constant human intervention or significant capital investment. It aims to overcome the limitations of manual effort, human scalability, and the inherent costs associated with traditional digital operations and online presence management.
+Businesses struggle to provide consistent, accurate, and scalable customer support through phone calls. Current solutions either lack the ability to maintain strict adherence to company policies, suffer from inconsistent responses across different agents, or require extensive human resources that don't scale cost-effectively. Companies need a way to provide immediate, policy-compliant voice support that can access their knowledge base in real-time.
 
 **Why is it important to solve?**
-Solving this problem is crucial for individuals and businesses seeking to achieve "maximum results with minimal effort." It enables the creation of a self-sustaining, zero-capital, and adaptable AI workforce that can autonomously earn, grow, and adapt, thereby aligning with the "lazy-smart idealist" philosophy. This allows users to focus on strategic oversight rather than repetitive execution.
+Poor customer support experiences lead to customer churn, increased operational costs, and brand damage. Traditional call centers are expensive to scale and maintain consistency across agents. An AI solution that can provide instant, accurate, and policy-compliant responses will reduce support costs, improve customer satisfaction, and ensure consistent brand representation across all customer interactions.
 
 ## 3. Goals & Objectives
 
-**Primary Goal:** To create a fully autonomous, zero-capital, scalable AI workforce that earns, grows, and adapts on its own, operating continuously online.
+**Primary Goal:** Create an embeddable AI widget that delivers fast, accurate, and policy-compliant customer support through real-time voice interactions.
 
 **Key Objectives (SMART):**
-- **Objective 1:** Enable AI agents to autonomously perform a diverse range of online tasks, including content creation, web data scraping and analysis, email/social messaging, and platform management, by Q4 2025.
-- **Objective 2:** Implement robust self-replication logic that allows agents to spawn new instances based on task completion, detection of new opportunities/data signals, or predefined schedules/conditions, achieving a 90% success rate in replication by Q1 2026.
-- **Objective 3:** Ensure each agent possesses contextual intelligence through the inheritance of specific goals, scoped memory (e.g., Google Sheets, vector DB), and a dynamic set of tools (e.g., APIs, scripts, browser automation), demonstrating effective context utilization in 95% of tasks by Q2 2026.
-- **Objective 4:** Design the system for web-native existence, leveraging free or low-cost cloud platforms (e.g., Google Apps Script, Hugging Face Spaces, GitHub Actions) and web communication protocols (webhooks, APIs), with a target operational cost of less than $10/month per active agent swarm by Q3 2026.
-- **Objective 5:** Achieve a fully automated ecosystem capable of self-healing (debugging or retrying failed steps) and operating without human input post-initialization, maintaining 99% uptime for core agent operations by Q4 2026.
+- **Objective 1:** Achieve sub-2-second response times for 90% of customer queries within 6 months of launch
+- **Objective 2:** Maintain 95% policy compliance rate across all customer interactions by Q2 2025
+- **Objective 3:** Enable businesses to deploy the widget with their custom knowledge base within 24 hours of setup
+- **Objective 4:** Process 1000+ concurrent voice calls per deployment by Q3 2025
+- **Objective 5:** Achieve 85% customer satisfaction score in post-call surveys within 3 months
 
 ## 4. User Personas & Stories
 
-**Target User(s):**
-"Lazy-smart idealists," solopreneurs, content creators (bloggers, YouTubers), digital marketers, researchers, and small business owners who aim to automate and scale their online presence and operations with minimal direct effort and capital investment. These users prioritize strategic thinking and system design over repetitive execution.
+**Target User(s):** 
+- **Primary:** Business owners and customer support managers at SMBs and enterprises
+- **Secondary:** End customers calling for support
+- **Tertiary:** Technical teams implementing the widget
 
 **User Stories:**
-- As a content creator, I want an AI agent to autonomously find trending topics, generate blog posts/video scripts, and publish them, so that I can scale my content production significantly without manual writing or posting.
-- As a business owner, I want AI agents to autonomously scrape LinkedIn/Reddit for leads and send personalized outreach messages, so that I can automate my sales and marketing efforts and focus on closing deals.
-- As a digital operations manager, I want AI agents to monitor specific websites for changes and generate analytical reports, so that I can stay informed about market shifts and automate data analysis without constant manual checks.
-- As a system architect, I want AI agents to self-replicate based on predefined logic and detected opportunities, so that my digital operations can grow, adapt, and evolve autonomously without my direct intervention.
-- As an individual seeking passive income, I want an AI system that can identify earning opportunities online and execute tasks to capitalize on them, so that I can generate revenue with minimal ongoing effort.
+- As a business owner, I want to embed an AI support widget on my website so that I can provide 24/7 customer support without hiring additional staff
+- As a customer support manager, I want to upload my company's policies and FAQ documents so that the AI follows our exact procedures and provides consistent responses
+- As a customer, I want to call for support and get immediate, accurate answers so that I can resolve my issues quickly without waiting in queues
+- As a technical team member, I want simple integration documentation so that I can implement the widget without extensive development work
+- As a business owner, I want to monitor call analytics and AI performance so that I can optimize my customer support strategy
 
 ## 5. Features & Scope
 
 **Core Features:**
--   **Autonomous Task Execution:** Agents can perform a wide array of online tasks, including:
-    -   Writing, editing, and posting content (blogs, social media, video scripts).
-    -   Scraping, parsing, and analyzing web data from various sources.
-    -   Sending personalized emails or social media messages.
-    -   Managing and updating content on digital platforms (e.g., YouTube, Medium, Reddit).
-    -   Triggering other tools and workflows via APIs (e.g., Zapier, Make, Google Apps Script).
--   **Self-Replication Logic:** Agents possess the capability to spawn new instances (replicate) based on:
-    -   Completion of a task that requires follow-up.
-    -   Detection of new opportunities or specific data signals.
-    -   Meeting predefined schedules or conditional triggers.
-    -   Replication involves spawning a new task-specific AI agent instance with inherited context and purpose.
--   **Contextual Intelligence:** Each agent is endowed with:
-    -   A clear goal or objective to guide its actions.
-    -   A scoped memory or context (e.g., Google Sheets row, JSON payload, local file, vector database) for relevant information.
-    -   A dynamic set of tools (APIs, custom scripts, browser automation capabilities) to achieve its objectives.
--   **Web-Native Existence:** Agents are designed to live and operate entirely in the cloud, leveraging:
-    -   Hosting on free or low-cost serverless platforms (e.g., Google Apps Script, Hugging Face Spaces, GitHub Actions).
-    -   Communication via webhooks, APIs, or data queues for inter-agent and external system interaction.
-    -   Interface capabilities with web browsers using tools like Puppeteer, Playwright, or Browserflow for complex web interactions.
--   **Fully Automated Ecosystem:** The system operates with minimal to no human input once initialized, characterized by:
-    -   All logic being rule-based, data-triggered, or prompt-driven.
-    -   Exclusive use of free tools and serverless environments to maintain zero-capital overhead.
-    -   Self-healing capabilities, including debugging mechanisms and automated retries for failed steps.
--   **System Architecture Components:**
-    -   **Agent Factory (Spawner/Orchestrator):** Reads tasks/goals from a queue (e.g., Google Sheet, Firebase) and spawns agents based on predefined templates.
-    -   **Agent Kernel (Core Agent Logic):** Contains the reasoning and execution engine (LLM + tools), stores logs, output, and spawn triggers.
-    -   **Memory Layer:** Utilizes Google Sheets or vector databases to store task results, conversation history, and performance logs, enabling learning and optimization.
-    -   **Replication Triggers:** Implements rule-based ("If success, spawn next"), data-based ("If new lead, create follow-up agent"), and time-based (cron jobs) triggers.
+- **Real-time Voice Processing:** WebRTC-based voice communication with speech-to-text and text-to-speech capabilities
+- **Embeddable Widget:** Lightweight React.js and HTML widgets that can be easily integrated into any website
+- **Knowledge Base Management:** Upload and manage policy documents, FAQs, and product information through a web interface
+- **RAG Integration:** Real-time retrieval of relevant information from vector databases during conversations
+- **Call Flow Engine:** Configurable conversation flows that ensure policy compliance and structured interactions
+- **MCP Integration:** Model Context Protocol support for enhanced AI reasoning and context management
+- **Analytics Dashboard:** Real-time monitoring of call volume, response times, customer satisfaction, and policy compliance
+- **Multi-language Support:** Support for major languages with automatic detection and switching
+- **Escalation System:** Seamless handoff to human agents when AI reaches confidence thresholds
+- **Custom Voice Options:** Multiple voice personalities and speaking styles to match brand identity
 
 **Out of Scope (for this version):**
--   Advanced machine learning for agent self-improvement beyond rule-based or data-triggered optimization.
--   Integration with proprietary or high-cost hosting platforms and tools.
--   Direct, real-time human interaction with agents post-initialization (beyond monitoring logs and outputs).
--   Development of a custom, dedicated user interface for agent management (reliance on existing platform interfaces like Google Sheets).
+- Video calling capabilities
+- Multi-channel support (SMS, email, chat)
+- Advanced sentiment analysis
+- Integration with CRM systems beyond basic webhooks
+- Mobile app development (web-based mobile support only)
 
 ## 6. Technical Requirements
 
-**Tech Stack:**
--   **LLMs:** OpenRouter (for free keys), GPT-3.5 (for core reasoning and content generation).
--   **Hosting/Execution:** Google Apps Script, GitHub Actions (for serverless execution and automation).
--   **Storage/Data Management:** Google Sheets (for task queues, memory, logs), JSON files, Firebase (optional for more dynamic data).
--   **Automation/Integration:** Zapier Free, Make Free, n8n (for connecting various online services).
--   **Web Scraping/Automation:** Browserflow, Puppeteer, Playwright (for browser interaction and data extraction).
--   **Context/Vector DB:** Pinecone free tier, Qdrant (for scalable context storage), CSV (for simpler context).
+**Tech Stack:** 
+- **Frontend:** React.js for widget UI, HTML/CSS/JavaScript for basic widget option
+- **Backend:** Python with LangChain/LangGraph for AI orchestration
+- **Vector Database:** Pinecone or Chroma for document embeddings and retrieval
+- **Voice Processing:** WebRTC for real-time communication, Whisper for STT, Azure/AWS/Google TTS
+- **AI Models:** OpenAI GPT-4 or Claude integration with RAG capabilities
+- **Database:** PostgreSQL for metadata, Redis for caching
+- **Infrastructure:** Docker containers, AWS/GCP for hosting
 
-**Platforms:**
--   Primarily web-native, operating within cloud-based, serverless environments. No specific desktop or mobile application development is planned.
+**Platforms:** Web-based (responsive design for mobile compatibility)
 
-**Integrations:**
--   Extensive use of webhooks for event-driven communication.
--   Integration with various third-party APIs (e.g., social media platforms, email services, content management systems).
--   Direct browser automation capabilities for interacting with websites that lack APIs.
+**Integrations:** 
+- Vector databases (Pinecone, Chroma, Weaviate)
+- Speech services (Azure Speech, Google Speech, AWS Transcribe)
+- AI model APIs (OpenAI, Anthropic, local models)
+- Webhook integrations for CRM systems
+- Analytics platforms (Google Analytics, Mixpanel)
 
 ## 7. Non-Functional Requirements
 
--   **Performance:** Agents should execute tasks efficiently, with minimal latency for web interactions and data processing. Replication processes should be near-instantaneous to support rapid scaling.
--   **Security:** Secure handling of API keys and credentials (e.g., environment variables, secure storage). Adherence to data privacy principles for any scraped or processed information. Agents should operate within the bounds of platform terms of service.
--   **Scalability:** The system must be inherently scalable, designed to allow for the spawning of numerous agents and handling increased task loads without significant degradation in performance. This is achieved by leveraging serverless architectures and free/low-cost tiers that support horizontal scaling.
--   **Usability:** While the system is autonomous, initial setup and monitoring interfaces (e.g., Google Sheets for task queues, logs, and memory) should be straightforward and intuitive for the target user.
--   **Reliability:** The system should be robust, with self-healing mechanisms (e.g., automated retries, error logging, basic debugging capabilities) to ensure continuous operation even in the face of transient failures.
+- **Performance:** 
+  - Sub-2-second response time for 90% of queries
+  - Voice latency under 500ms for real-time feel
+  - Widget load time under 3 seconds
+- **Security:** 
+  - End-to-end encryption for all voice communications
+  - SOC 2 Type II compliance
+  - GDPR and CCPA compliant data handling
+  - API key management and rotation
+- **Scalability:** 
+  - Support 10,000+ concurrent calls per region
+  - Auto-scaling based on demand
+  - Multi-region deployment capability
+- **Usability:** 
+  - WCAG 2.1 AA accessibility compliance
+  - Intuitive admin interface requiring minimal training
+  - Mobile-responsive design
 
 ## 8. Success Metrics
 
 **How will we measure success?**
--   **Autonomous Task Completion Rate:** Percentage of tasks successfully completed by agents without human intervention.
--   **Agent Replication Rate:** The average number of new agents spawned per initial agent over a defined period.
--   **Reduction in Manual Effort:** Quantifiable time savings or reduction in human hours spent on tasks now performed by agents.
--   **Cost-Effectiveness:** Adherence to the "zero-capital" ideal, measured by monthly operational costs remaining within free/low-cost tiers.
--   **System Uptime:** Percentage of time the core agent factory and kernel are operational.
--   **Self-Healing Success Rate:** Percentage of automatically detected and resolved errors.
--   **Specific Use Case Outcomes:** Metrics relevant to the chosen initial use cases (e.g., number of blog posts generated, leads contacted, revenue generated by autonomous agents).
+- **Response Time:** Average AI response time under 2 seconds
+- **Policy Compliance:** 95% adherence to uploaded policies and procedures
+- **Customer Satisfaction:** 85% positive feedback in post-call surveys
+- **Resolution Rate:** 80% of calls resolved without human escalation
+- **Uptime:** 99.9% system availability
+- **Adoption Rate:** 100+ businesses using the widget within 6 months
+- **Cost Efficiency:** 60% reduction in support costs compared to traditional call centers
 
 ## 9. Assumptions & Constraints
 
 **Assumptions:**
--   Free and low-cost platforms and tools (e.g., Google Apps Script, GitHub Actions, free LLM tiers) will remain available and sufficient for core operational needs.
--   Large Language Models (LLMs) will continue to provide adequate performance, reasoning capabilities, and cost-effectiveness for agent execution.
--   Web scraping and browser automation tools will remain effective against evolving website structures and anti-bot measures.
--   The "lazy-smart idealist" philosophy and the desire for autonomous online operations resonate with a significant and growing user base.
--   Users will have basic technical proficiency to set up initial configurations (e.g., Google Sheets, API keys).
+- Businesses have digital versions of their policies and FAQ documents
+- Users have stable internet connections for voice communication
+- Companies are comfortable with AI handling customer interactions
+- Vector databases can provide sub-second query responses
+- LangChain/LangGraph performance is sufficient for real-time applications
 
 **Constraints:**
--   **Resource Limitations:** Reliance on free/low-cost tiers may impose inherent limitations on scale, speed, or access to advanced features, potentially requiring optimization for resource efficiency.
--   **API Rate Limits & Policy Changes:** Potential for rate limits or changes in policies from third-party APIs and platforms, which could impact agent functionality.
--   **Complexity of Distributed Systems:** Debugging, monitoring, and maintaining a highly distributed, autonomous system can be inherently complex.
--   **Ethical and Legal Considerations:** Navigating the ethical implications of autonomous online agents (e.g., potential for spam, data privacy concerns, compliance with terms of service) will be an ongoing challenge.
--   **Browser Automation Fragility:** Web interfaces can change, potentially breaking browser automation scripts and requiring maintenance.
+- Initial launch budget of $500K for development and infrastructure
+- 9-month development timeline with MVP in 6 months
+- Compliance with data privacy regulations across multiple jurisdictions
+- Dependence on third-party AI model APIs and their rate limits
+- Voice processing latency limitations based on user's internet connection
+- Browser compatibility requirements for WebRTC support
