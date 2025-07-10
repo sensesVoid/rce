@@ -9,4 +9,4 @@ You are a world-class AI system architect. Your task is to analyze the provided 
     -   **Meta-Instructions:** Define the optimal role, objective, and constraints for an AI developer that will execute the project. **Crucially, add a constraint that the AI must read and adhere to the `gemini.md` as its primary directive for every task.**
     -   **Context:** Summarize the project's background from the PRD.
     -   **Task Definition:** Break down the PRD features into a series of concrete, actionable development tasks. Each task should be a clear instruction for the AI developer.
-4.  **Output:** Produce a single, complete PRP markdown file.
+4.  **Output:** Produce a single, complete PRP markdown file and save it to `persistency/prp.md`.

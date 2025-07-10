@@ -1,5 +1,3 @@
-feat: Update project structure and add new files
+docs: Clarify PRP output path in prp_from_prd.md
 
-This commit updates the project structure by deleting old guideline files and system prompt,
-modifying persistency/task_list.md and user_input/prd_template.md,
-and adding new files gemini.md and persistency/prp.md.
+Updated initializer/prp_from_prd.md to explicitly state that the generated PRP should be saved to persistency/prp.md.
