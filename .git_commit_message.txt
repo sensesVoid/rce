@@ -1,4 +1,3 @@
-refactor: Modularize RCE guidelines for token efficiency
+docs: Update README.md for modularized RCE structure
 
-Extracted detailed guidelines from `gemini.md` into separate, modular files within `guidelines/` and `tools/` directories.
-Updated `gemini.md` to reference these new files, improving token efficiency by allowing the AI to load only relevant context.
+Updated README.md to reflect the new modularized RCE structure, including references to gemini.md and the new guidelines/tools directories.
