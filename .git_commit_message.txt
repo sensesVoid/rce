@@ -1,3 +1,4 @@
-docs: Clarify PRP output path in prp_from_prd.md
+refactor: Modularize RCE guidelines for token efficiency
 
-Updated initializer/prp_from_prd.md to explicitly state that the generated PRP should be saved to persistency/prp.md.
+Extracted detailed guidelines from `gemini.md` into separate, modular files within `guidelines/` and `tools/` directories.
+Updated `gemini.md` to reference these new files, improving token efficiency by allowing the AI to load only relevant context.
