@@ -87,7 +87,7 @@ function main() {
             console.log("Usage:");
             console.log("node sample_app_code.js add \"My new task\"");
             console.log("node sample_app_code.js list");
-            console.log("node sample_app_code.js done <task_id>");
+            console.log('  node sample_app_code.js done <task_id>');
     }
 }
 
